@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Sarasa UI SC";
+    src: url(./font/SarasaUiSC-Regular.ttf);
+}
+
+:root{
+    color-scheme: light dark;
+}
+
+body {
+    font-family: 'Sarasa UI SC', monospace;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title-font {
+    font-family: 'Sarasa UI SC', cursive;
+    color: #ff5555;
+}
+
+.warning-box {
+    border: 3px dashed #ff0000;
+    padding: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+@media (prefers-color-scheme: dark) {
+    ._1st-member-card {
+        background: #1a1a1a;
+        padding: 15px;
+        margin: 10px;
+        border-left: 5px solid #5555ff;
+    }
+    ._2nd-member-card {
+        background: #2b2b2b;
+        padding: 15px;
+        margin: 10px;
+        border-left: 5px solid #5555ff;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    ._1st-member-card {
+        background: #eeeeee;
+        padding: 15px;
+        margin: 10px;
+        border-left: 5px solid #5555ff;
+        /* width: 90%; */
+    }
+    ._2nd-member-card {
+        background: #dddddd;
+        padding: 15px;
+        margin: 10px;
+        border-left: 5px solid #5555ff;
+    }
+}
+
+.mod-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+@media (prefers-color-scheme: light) {
+    .button {
+    color: black;
+    background-color: #eeeeee;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    .button {
+    color: white;
+    background-color: #111111;
+    }
+}
+
+.button {
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    border: none;
+    margin: 0;
+}
+
+h3 {
+    border: none;
+    margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+    a {
+        color: #000000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: #ffffff;
+    }
+}
