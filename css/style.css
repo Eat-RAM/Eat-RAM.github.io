@@ -36,13 +36,13 @@ body {
 
 @media (prefers-color-scheme: dark) {
     ._1st-member-card {
-        background: #1a1a1a;
+        background: #222222;
         padding: 15px;
         margin: 10px;
         border-left: 5px solid #5555ff;
     }
     ._2nd-member-card {
-        background: #2b2b2b;
+        background: #333333;
         padding: 15px;
         margin: 10px;
         border-left: 5px solid #5555ff;
@@ -75,13 +75,13 @@ body {
 @media (prefers-color-scheme: light) {
     .button {
     color: black;
-    background-color: #eeeeee;
+    background-color: #dddddd;
     }
 }
 @media (prefers-color-scheme: dark) {
     .button {
     color: white;
-    background-color: #111111;
+    background-color: #333333;
     }
 }
 
